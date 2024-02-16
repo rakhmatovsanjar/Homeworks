@@ -16,6 +16,7 @@ public class Registration {
         person.setName(scanner.nextLine());
         System.out.print("Yoshini kiriting: ");
         person.setAge(scanner.nextInt());
+
         person.setLogin(true);
     }
 

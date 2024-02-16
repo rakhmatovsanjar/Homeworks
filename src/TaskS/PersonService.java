@@ -28,7 +28,7 @@ public class PersonService {
                         aditPerson.editPerson();
                         person=aditPerson.getPerson();
                     } else {
-                        System.out.println("Foydalanuvchi ro'yxatdan o'tmagan");
+                        System.out.println("Foydalanuvchi ro'yxatdan o'tmagan ");
                     }
                 }
                 case 3 -> System.out.println(person);

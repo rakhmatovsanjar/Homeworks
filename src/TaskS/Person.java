@@ -1,7 +1,7 @@
 package TaskS;
 
 public class Person {
-    private boolean isLogin=false;
+    private boolean isLogin = false;
     private String name;
     private int age;
 
