@@ -24,7 +24,7 @@ public class PersonService {
                     person=registration.getPerson();
                 }
                 case 2 -> {
-                    if (person.isLogin()) {
+                    if (registration.isLogin()) {
                         aditPerson.editPerson();
                         person=aditPerson.getPerson();
                     } else {

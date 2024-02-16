@@ -3,6 +3,7 @@ package TaskS;
 import java.util.Scanner;
 
 public class Registration {
+    private boolean isLogin = false;
     private final Person person;
     private final Scanner scanner;
 
@@ -17,10 +18,14 @@ public class Registration {
         System.out.print("Yoshini kiriting: ");
         person.setAge(scanner.nextInt());
 
-        person.setLogin(true);
+        isLogin = true;
     }
 
     public Person getPerson() {
         return person;
+    }
+
+    public boolean isLogin() {
+        return isLogin;
     }
 }
